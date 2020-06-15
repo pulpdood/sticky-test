@@ -1,5 +1,10 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
 .box.current {
-  bottom: 300px;
+  position: -webkit-sticky;
+  bottom: calc(100% - 190px);
   position: sticky;
   border: 5px solid red;
 }
@@ -11,6 +16,11 @@
   background-color: white;
 }
 .empty-box {
+  border:none;
+  opacity: 0;
+  height: 220px;
+}
+.filler-box {
   margin-top: -230px;
   border: none;
   background-color: orange;
