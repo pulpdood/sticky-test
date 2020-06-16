@@ -1,13 +1,17 @@
+.container {
+  width: 100%;
+}
 .box.current {
   position: -webkit-sticky;
-  bottom: calc(100% - 190px);
+  /* bottom: calc(100% - 190px); */
+  /* margin-top: -8px; */
+  top: 50px;
   position: sticky;
   border: 5px solid red;
 }
 .box {
-  width: 75%;
   height: 180px;
-  border: 1px solid red;
+  border: 1px solid darkgrey;
   margin: 50px;
   background-color: white;
 }
@@ -17,8 +21,7 @@
   height: 220px;
 }
 .filler-box {
-  margin-top: -230px;
-  border: none;
-  background-color: orange;
+  /* margin-top: -230px; */
   z-index: -1;
+  border: 5px solid red;
 }
